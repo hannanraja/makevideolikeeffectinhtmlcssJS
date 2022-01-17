@@ -1,0 +1,96 @@
+<style>
+body{
+    overflow-x: hidden;
+}
+.top{
+    postion:absolute;
+    margin:auto;
+    text-align:center;
+    top:01px;
+    font-weight:800;
+    text-shadow:4px 4px 15px #000000;
+    font-size:70px;
+      padding-bottom: 10vh;
+      padding-top: 10vh;
+}
+@media only screen and (max-width: 600px){
+    .top{
+        font-size: 20px;
+         padding-top: 5vh;
+         top:0;
+         text-shadow:2px 2px 4px #000000;
+    }
+}
+h2{
+    color:white;
+}
+#summ {
+  font-size: 6vh ;
+  height: 15vh ; 
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 90vh;
+}
+@media only screen and (max-width: 600px) {
+    #summ {
+        font-size: 2.3em ;
+         height: 5vh ; 
+          margin-bottom: 45vh;
+           margin-top: 5vh;
+    }
+}
+#summ tum {
+  display: block;
+  font-size: 3em;
+  font-weight: 600;
+  opacity: .8;
+   color: black;
+}
+@media only screen and (max-width: 600px) {
+    #summ tum {
+        font-size:1.6em;
+    }
+}
+#summ hum {
+ position: absolute ;
+ margin: 2vh 0;
+  opacity: 0;
+  left: 10vw;
+  width: 80vw;
+  animation: animi 32s ease-out infinite;
+}
+@media only screen and (max-width: 600px) {
+    #summ hum {
+        font-size: 0.8em;
+        left:4vw;
+        margin: 5vh 0 0 0 ;
+    }}
+#summ hum:nth-child(2) { animation-delay: 4s}
+#summ hum:nth-child(3) { animation-delay: 8s}
+#summ hum:nth-child(4) { animation-delay: 12s}
+#summ hum:nth-child(5) { animation-delay: 16s}
+#summ hum:nth-child(6) { animation-delay: 20s}
+#summ hum:nth-child(7) { animation-delay: 24s}
+#summ hum:nth-child(8) { animation-delay: 28s}
+
+@keyframes animi {
+    0% { opacity: 0;filter: blur(20px); transform:scale(15)}
+    3% { opacity: 1;filter: blur(0); transform:scale(1)}
+    10% { opacity: 1;filter: blur(0); transform:scale(.9)}
+    13% { opacity: 0;filter: blur(10px); transform:scale(.0)}
+    
+   
+    100% { opacity: 0}
+}
+</style>
+<div id="summ">  
+<h2 class="top"> We help you in</h2>
+<hum> Starting your<tum>Business</tum> for you</hum>
+<hum> Strengthening your online <tum>business</tum> visibility</hum>
+<hum> <tum>Increasing</tum> your revenue</hum>
+<hum>Attracting the right<tum> customers</tum> for you</hum>
+<hum> Establishing a sustained <tum>revenue</tum></hum>
+<hum> Developing the <tum>websites</tum></hum>
+<hum> Starting the direction oriented<tum> campaign</tum></hum>
+<hum> Ranking your business as per <tum>market </tum>trends</hum>
+</div>
